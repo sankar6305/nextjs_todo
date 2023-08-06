@@ -1,0 +1,143 @@
+.starting {
+  margin: 3rem auto;
+  text-align: start;
+  display: inline;
+  width: auto;
+  
+}
+
+.starting h1 {
+  display: inline-block;
+  font-size: 5rem;
+  margin-right: 75px;
+  text-shadow: 0 3px 5px #0b0212;
+  color: #000000;;
+}
+
+.ButtonTOAdd {
+  display: inline-block;
+  text-align: center;
+  margin: 2rem auto;
+  width: 120px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  border-radius: 1rem;
+  border: 0.2rem solid rgb(0, 0, 0);
+  background-color: #38015c;
+  cursor: pointer;
+}
+
+.ButtonTOAdd:hover {
+  background-color: #c291e2;
+  color: #38015c;
+}
+
+.AddingTask {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  background-color: #38015c;
+  width: 20%;
+  cursor: pointer;
+  border-radius: 1rem;
+  margin: 20px;
+  height: 30%;
+}
+
+.AddingTask label, .AddingTask h1 {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+}
+
+.AddingTask input {
+  font-size: 15px;
+  height: 30px;
+  border-radius: 1rem;
+  border: 0.2rem solid rgb(0, 0, 0);
+  margin: 1rem auto;
+}
+
+.AddingTask textarea {
+  border-radius: 1rem;
+  font-size: 15px;
+}
+
+.AddingTask button {
+  margin: 1rem auto;
+  width: 120px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #38015c;
+  border-radius: 1rem;
+  border: 0.2rem solid rgb(0, 0, 0);
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+
+.AddingTask button:hover {
+  background-color: #c291e2;
+  color: #38015c;
+}
+
+.showingeachrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem auto;
+  width: 80%;
+  padding: 20px;
+  height: 50px;
+  border-radius: 1rem;
+  border: 0.2rem solid rgb(0, 0, 0);
+  background-color: #c291e2;
+}
+
+
+
+.showingeachHeading {
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+    width: 80%;
+    padding: 20px;
+    height: 50px;
+    border-radius: 1rem;
+    
+}
+
+
+.tasktag h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+  color: #38015c;
+  text-shadow: #000000;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.buttonatrow > button {
+  text-align: center;
+  color: white;
+  background-color: #38015c;
+  border-radius: 1rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.showingeachrow > div {
+  font-size: 25px;
+}
