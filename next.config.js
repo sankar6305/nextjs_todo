@@ -7,7 +7,6 @@ const nextConfig = {
     mongodb_clustername: 'cluster0',
     mongodb_database: '',
     NEXTAUTH_SECRET: 'naoHGMGsrGTlsdlnMVK9ar/51iEfIz0za+BgVTe5Ctw=',
-    NEXTAUTH_URL: 'http://localhost:3000',
   },
 }
 
