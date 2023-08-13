@@ -1,38 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Steps to follow
 
-First, run the development server:
+#### Step 1 :
+![image](https://github.com/sankar6305/nextjs_todo/assets/58016341/c52e6c93-ca92-48cd-b88c-f146bc7e9038)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+#### Step 2:
+Login Next
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![image](https://github.com/sankar6305/nextjs_todo/assets/58016341/4a68bc14-6bca-4e08-9513-71964905f4a3)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+#### Step 3 :
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Adding Tasks and displays
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![image](https://github.com/sankar6305/nextjs_todo/assets/58016341/173e514f-eca9-4a48-97ac-6d70419c3678)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Step 4:
+GO to Activity Panel
 
-## Learn More
+![tempsnip](https://github.com/sankar6305/nextjs_todo/assets/58016341/e172f87e-07e5-4950-b6eb-e79d45b9d6af)
 
-To learn more about Next.js, take a look at the following resources:
+#### Step 5:
+You can find the total number of hour worked and number of tasks added per day
+![image](https://github.com/sankar6305/nextjs_todo/assets/58016341/5b8a1e2e-0275-4929-aa65-1339d7f9c28a)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Step 6:
+You can find a Calender where you can see your todos with the timeline
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![image](https://github.com/sankar6305/nextjs_todo/assets/58016341/2bdab627-3902-4446-a2e3-7d7825c1bc93)
