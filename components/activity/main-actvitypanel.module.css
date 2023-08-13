@@ -111,10 +111,11 @@
     display: inline-block;
     padding: 10px;
     padding-top: 25px;
+    font-weight: 450;
+    color: #FFFFFF;
     width: 500px;
     overflow: hidden !important;
-    background-color: #FFFFFF;
-    border-left: 3px solid red;
+    background-color: #3027dd;
     justify-content: center;
     align-items: center;
 }
