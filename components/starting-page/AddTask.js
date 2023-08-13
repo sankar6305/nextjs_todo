@@ -1,13 +1,17 @@
 import React from 'react'
 import { useState } from 'react'
 import classes from './starting-page.module.css';
+import DatePicker from 'react-datepicker';
 
 export const AddTask = ({ user }) => {
+
 
     const [formData, setFormData] = useState({
         name: '',
         message: '',
         user: user,
+        startDate: new Date(),
+        endDate: new Date(),
     });
     
     const handleChange = (e) => {
@@ -58,6 +62,14 @@ export const AddTask = ({ user }) => {
             <div>
                 <label>Description</label>
                 <textarea name="message" value={formData.message} onChange={handleChange} />
+              </div>
+              <div>
+                <label>Start Date </label>
+                <input type='date' name="startDate" value={formData.startDate} onChange={handleChange} />
+            </div>
+            <div>
+                <label>End Date</label>
+                <input type='date' name="endDate" value={formData.endDate} onChange={handleChange} />
             </div>
               <button type="submit">Submit</button>
           </form>

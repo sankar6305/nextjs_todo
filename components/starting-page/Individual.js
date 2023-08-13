@@ -28,7 +28,7 @@ export const Individual = ({ task }) => {
   return (
     <div className={classes.showingeachrow}>
           <div>{task.name}</div>
-          <div>{task.mesage}</div>
+          <div>{task.message}</div>
       <div className={ classes.buttonatrow }><button onClick={handleDelete}>Delete</button></div>
     </div>
   )

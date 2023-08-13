@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;700&display=swap');
 
+
+
 * {
   box-sizing: border-box;
 }
@@ -16,4 +18,44 @@ h4,
 h5,
 h6 {
   font-family: 'Lato', sans-serif;
+}
+
+.e-schedule .e-vertical-view .e-day-wrapper .e-appointment, .e-schedule .e-timeline-month-view .e-appointment {
+  height: auto;
+  width: 100%;
+  background: #FFFFFF !important;
+  color: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 74, 223, 0.25);
+  border-radius: 20px;
+  align-items: center;
+}
+
+
+.e-appointment-details {
+  background-color: rgb(255, 255, 255);
+}
+
+.e-schedule .e-timeline-view .e-resource-text,
+.e-schedule .e-timeline-month-view .e-resource-text {
+  color: rgba(0, 0, 0, .87);
+  font-size: 13px;
+  overflow: hidden;
+  padding: 4px 15px;
+  display: none;
+  text-overflow: ellipsis;
+}
+
+
+.e-schedule .e-timeline-view .e-resource-collapse,
+.e-schedule .e-timeline-month-view .e-resource-collapse {
+  transform: rotate(90deg);
+  display: none;
+}
+
+
+.e-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn.e-btn .e-icons.e-btn-icon {
+  margin: 0;
+  min-width: 24px;
+  width: auto;
+  display: none;
 }
