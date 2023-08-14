@@ -41,7 +41,7 @@ const Calender = ({ user }) => {
               EndTime: new Date(data[i].EndTime),
               IsAllDay: false,
               ProjectId: 1,
-              TaskId:(i+1) % 5,
+              TaskId:(i+1) % 7,
             }
             temp.push(eachData);
           }
