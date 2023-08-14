@@ -38,6 +38,7 @@
 
 .Toplayers {
     display: flex;
+    margin-left: 100px;
     padding: 20px;
 }
 
