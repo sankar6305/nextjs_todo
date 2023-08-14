@@ -58,6 +58,7 @@ async function HandleTask(req, res) {
             date: getDateWithoutTime(date),
             day: labelweek[date.getDay()],
             count : 1,
+            duration : 0,
         });
         res.status(201).json({ message: 'Task Added by user!' });
     }
