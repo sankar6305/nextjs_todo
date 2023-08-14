@@ -84,7 +84,7 @@ const VulnChart = ({ dummydata, user }) => {
 
   return (
     <div className={classes.barchart}>
-      <h1>Task Activities</h1>
+      <h1>Time Spent</h1>
           {
             data1.length > 0 &&
             <Bar
