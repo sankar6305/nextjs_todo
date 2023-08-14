@@ -53,7 +53,7 @@ function TaskComponent() {
       setIsTimerStarted(true);
     } else {
         elapsedTime = startTime ? (new Date() - startTime) / 1000 : 0;
-        fetch('http://localhost:3000/api/timer/timercount', {
+        fetch('/api/timer/timercount', {
             method: 'POST',
             body: JSON.stringify({
                 user: user,
