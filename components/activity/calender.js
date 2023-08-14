@@ -68,12 +68,12 @@ const Calender = ({ user }) => {
         { text: 'PROJECT 1', id: 1, color: '#cb6bb2' }
     ];
     const categoryData = [
-        { text: 'Nancy', id: 1, groupId: 1, color: '#df5286' },
-        { text: 'Steven', id: 2, groupId: 1, color: '#7fa900' },
-        { text: 'Robert', id: 3, groupId: 1, color: '#ea7a57' },
-        { text: 'Smith', id: 4, groupId: 1, color: '#5978ee' },
-        { text: 'Michael', id: 5, groupId: 1, color: '#df5286' },
-        { text: 'Root', id: 6, groupId: 1, color: '#00bdae' }
+        { text: '', id: 1, groupId: 1, color: '#df5286' },
+        { text: '', id: 2, groupId: 1, color: '#7fa900' },
+        { text: '', id: 3, groupId: 1, color: '#ea7a57' },
+        { text: '', id: 4, groupId: 1, color: '#5978ee' },
+        { text: '', id: 5, groupId: 1, color: '#df5286' },
+        { text: '', id: 6, groupId: 1, color: '#00bdae' }
     ];
 
 
