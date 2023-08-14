@@ -40,6 +40,7 @@ async function HandleTask(req, res) {
     const datewith = getDateWithoutTime(date);
 
     const result1 = await db.collection('TaskTimer').find({ user: user }).toArray();
+    const labelweek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
     var cnt = null;
     if (cnt = result1.find(item => item.date === datewith)) {
         console.log("already exisisting one means update it");
@@ -55,7 +56,7 @@ async function HandleTask(req, res) {
         const result2 = await db.collection('TaskTimer').insertOne({
             user: user,
             date: getDateWithoutTime(date),
-            day: date.getDay(),
+            day: labelweek[date.getDay()],
             count : 1,
         });
         res.status(201).json({ message: 'Task Added by user!' });
