@@ -47,7 +47,7 @@ const Main_activity = () => {
   ];
 
   return (
-    <div>
+    <div className={classes.Entire_analitics}>
       <div className={classes.Toplayers}>
         <div className={classes.Toplayers_barchart}>
           <VulnChart dummydata = {dummydata} user={user} />
