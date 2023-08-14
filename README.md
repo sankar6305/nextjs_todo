@@ -26,18 +26,20 @@ GO to Activity Panel
 
 #### Step 5:
 You can find the total number of hour worked and number of tasks added per day
-![image](https://github.com/sankar6305/nextjs_todo/assets/58016341/2effde7e-25ff-4a3b-ab36-71485eb50f92)
+![image](https://github.com/sankar6305/nextjs_todo/assets/58016341/a7fab384-2969-498f-b32f-b461381b36c4)
+
 
 
 #### Step 6:
 You can find a Calender where you can see your todos with the timeline
 
-![image](https://github.com/sankar6305/nextjs_todo/assets/58016341/5e50def3-5b22-4be5-9e56-577daf1d606d)
+![image](https://github.com/sankar6305/nextjs_todo/assets/58016341/275f9498-665b-4ea0-8b17-445d5b64c263)
 
 
 #### Step 7:
-You can go to the other months and year too see the sxheduled toodos
+You can go to the other months and year to see the scheduled todos
 
-![image](https://github.com/sankar6305/nextjs_todo/assets/58016341/c478f37c-e226-473c-927e-61d0dcb06202)
+![image](https://github.com/sankar6305/nextjs_todo/assets/58016341/b452baf9-20d1-40b6-92ec-a8128225e6ea)
+
 
 
