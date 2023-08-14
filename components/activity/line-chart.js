@@ -85,7 +85,7 @@ const YourComponent = ({ dummydata, user }) => {
 
   return (
     <div>
-      <h1>Task Activities</h1>
+      <h1>Tasks Added per day</h1>
       {data1.length > 0 && (
         <div className={ classes.linechart}  >
           <Line data={lineDataset} options={options} /> {/* Include Line chart */}
