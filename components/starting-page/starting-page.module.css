@@ -1,5 +1,4 @@
 .starting {
-  margin: 3rem auto;
   text-align: start;
   display: inline;
   width: auto;
@@ -126,7 +125,10 @@
 }
 
 .aligncenter {
+  display: flex;
+  align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 .buttonatrow > button {
