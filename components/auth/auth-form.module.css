@@ -69,6 +69,8 @@
   width: 100%;
   text-align: left;
   padding: 0.25rem;
+  height: 40px;
+  font-size: 20px;
 }
 
 .actions {
