@@ -74,8 +74,10 @@ function AuthForm() {
   }
 
   return (
+    <div className={classes.EntireLog}>
     <section className={classes.auth}  >
-      <h1>{isLogin ? 'Login' : 'Sign Up'}</h1>
+      <h1>Hi there!</h1>
+      <h4> {isLogin ? 'Have we met before?' : 'Is this our first interaction?'}</h4>
       <form onSubmit={submitHandler}>
         <div className={classes.control}>
           <label htmlFor='email'>Your Email</label>
@@ -90,8 +92,10 @@ function AuthForm() {
             ref={passwordInputRef}
           />
         </div>
-        <div className={classes.actions}>
-          <button>{isLogin ? 'Login' : 'Create Account'}</button>
+          <div className={classes.actions}>
+            <div>
+              <button>{isLogin ? 'Login' : 'Create Account'}</button>
+            </div>
           <button
             type='button'
             className={classes.toggle}
@@ -101,7 +105,11 @@ function AuthForm() {
           </button>
         </div>
       </form>
-    </section>
+      </section>
+      <div className={classes.auth_image}>
+        <img src="/Checklist.jpg" alt="auth_image" />
+      </div>
+      </div>
   );
 }
 
