@@ -1,14 +1,13 @@
 .EntireLog {
   display: flex;
-  flex-direction: row;
-  background-color: #ffffff;
-  width: 80%;
-  border-radius: 16px;
-    background-color: #ffffff;
-    box-shadow: 0 5px 4px rgba(49, 47, 47, 0.2);
-    padding: 1rem !important;
-    margin: 20px;
-    margin-left: 10%;
+    flex-direction: row;
+    width: 80%;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 4px rgba(49,47,47,.2);
+    padding: 1rem!important;
+    margin: 20px 20px 20px 10%;
+    height: 680px;
 }
 
 .auth_image {
