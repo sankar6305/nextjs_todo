@@ -8,7 +8,8 @@
 #### Step 2:
 Login Next
 
-![image](https://github.com/sankar6305/nextjs_todo/assets/58016341/d1910a6a-f8a8-45df-942c-e5b00c55b3b2)
+![image](https://github.com/sankar6305/nextjs_todo/assets/58016341/b794718b-6b7f-4c81-b483-6e681d74957c)
+
 
 
 #### Step 3 :
