@@ -75,7 +75,6 @@ function AuthForm() {
 
   return (
     <div className={classes.EntireLog}>
-   <div className = {classes.Entire_loginPage}>
     <section className={classes.auth}  >
       <h1>Hi there!</h1>
       <h4> {isLogin ? 'Have we met before?' : 'Is this our first interaction?'}</h4>
@@ -107,7 +106,6 @@ function AuthForm() {
         </div>
       </form>
       </section>
-      </div>
       <div className={classes.auth_image}>
         <img src="/Checklist.jpg" alt="auth_image" />
       </div>
